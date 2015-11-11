@@ -1,0 +1,29 @@
+<div class="main">
+<div class="main-container">
+	<h1 class="home-heading">SIMPLE WEATHER</h1>
+	
+	<div class="intro-section">
+		<h3 class="intro-para">Welcome to Simple Weather, where you can simply check the current and forecasted weather for any area!</h3></br><h5 class="no-junk">NO POP-UPS, NO ADS...</h5>
+		
+	</div>
+	<div class="visitorInputArea">
+		<div class="formContainer">
+			<h4 class="search-heading">For which city would you like to check the weather?</h4>
+			<div class="form-group has-feedback">
+			<input type="search" class="form-control" ng-model="city" placeholder=" ENTER CITY HERE"/>
+			<span class="glyphicon glyphicon-search form-control-feedback"></span>
+			</div>
+			<div class="buttons" ng-show="city" class="ng-show">
+				<form name="userInfo">
+				<a ng-href="#/current-weather/{{city}}">
+					<button class="btn btn-primary btn-outline btn-lg">Current Weather</button>
+				</a>
+				<a ng-href="#/forecast/{{city}}">
+					<button class="btn btn-primary btn-outline btn-lg">Forecast</button>
+				</a>
+				</form>
+			</div>
+		</div>
+	</div>	
+</div>
+</div>

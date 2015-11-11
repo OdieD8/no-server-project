@@ -1,0 +1,62 @@
+/*Home Page*/
+
+body {
+	background-image: url("http://ayay.co.uk/backgrounds/weather/clouds/blue-sea-horizon.jpg");
+	background-color: dodgerblue;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.main-container {
+  width: 75%;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.80);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.home-heading {
+	color: dodgerblue;
+	font-family: arial;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.intro-section {
+	border: 2px solid;
+	margin-bottom: 2%;
+	
+}
+
+.intro-para {
+	margin: 2%;
+	text-align: center;
+}
+
+.no-junk {
+	margin: 2%;
+	text-align: center;
+}
+
+.search-heading {
+	font-size: 25px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.buttons {
+	margin-top: 2%;
+}
+
+.button {
+	padding: 1%;
+	background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+	cursor: pointer;
+}

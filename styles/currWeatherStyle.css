@@ -1,0 +1,50 @@
+/*Current Weather Page*/
+
+
+.curr-weather-container {
+  width: 75%;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.curr-weather-heading {
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+	padding-left: 10%;
+}
+
+.curr-results {
+	border: 2px solid;
+	margin-bottom: 2%;
+	background: rgba(0, 0, 0, 0.60);
+	border-radius: 10px;
+}
+
+.curr-results-disp {
+	margin: 2%;
+	text-align: center;
+	color: white;
+	font-size: 60px;
+}
+
+h4 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.buttons {
+	margin-top: 2%;
+}
+
+.btn-outline {
+    background-color: white;
+    color: inherit;
+    transition: all .5s;
+}
+
+.city {
+	color: dodgerblue;
+	font-weight: bold;
+}

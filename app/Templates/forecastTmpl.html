@@ -1,0 +1,83 @@
+<a name="top"></a>
+<div class="forecast-weather-container">
+	<h1 class="forecast-weather-heading">7-Day Forecast</h1>
+	<div class="forecast-results">
+		<h3 class="forecast-results-disp">
+			<div class="city">{{city}}</div>
+			<strong class="day">{{weatherForecastData.day[0]}}, {{weatherForecastData.month[0]}} {{weatherForecastData.date[0]}}</strong>
+			<div>Low: {{weatherForecastData.list[0].temp.min}}&deg</div>
+			<div>High: {{weatherForecastData.list[0].temp.max}}&deg</div>
+			<div>Weather: {{weatherForecastData.list[0].weather[0].main}}</div>
+			<div>Wind: {{weatherForecastData.list[0].speed}}</div>
+	</div>
+			</br>
+	<div class="forecast-results">
+		<h3 class="forecast-results-disp">
+			<strong class="day">{{weatherForecastData.day[1]}}, {{weatherForecastData.month[1]}} {{weatherForecastData.date[1]}}</strong>
+			<div>Low: {{weatherForecastData.list[1].temp.min}}&deg</div>
+			<div>High: {{weatherForecastData.list[1].temp.max}}&deg</div>
+			<div>Weather: {{weatherForecastData.list[1].weather[0].main}}</div>
+			<div>Wind: {{weatherForecastData.list[1].speed}}</div>
+		</h3>
+	</div>
+			</br>
+	<div class="forecast-results">
+		<h3 class="forecast-results-disp">		
+			<strong class="day">{{weatherForecastData.day[2]}}, {{weatherForecastData.month[2]}} {{weatherForecastData.date[2]}}</strong>
+			<div>Low: {{weatherForecastData.list[2].temp.min}}&deg</div>
+			<div>High: {{weatherForecastData.list[2].temp.max}}&deg</div>
+			<div>Weather: {{weatherForecastData.list[2].weather[0].main}}</div>
+			<div>Wind: {{weatherForecastData.list[2].speed}}</div>
+		</h3>
+	</div>		
+			</br>
+	<div class="forecast-results">
+		<h3 class="forecast-results-disp">		
+			<strong class="day">{{weatherForecastData.day[3]}}, {{weatherForecastData.month[3]}} {{weatherForecastData.date[3]}}</strong>
+			<div>Low: {{weatherForecastData.list[3].temp.min}}&deg</div>
+			<div>High: {{weatherForecastData.list[3].temp.max}}&deg</div>
+			<div>Weather: {{weatherForecastData.list[3].weather[0].main}}</div>
+			<div>Wind: {{weatherForecastData.list[3].speed}}</div>
+		</h3>
+	</div>		
+			</br>
+	<div class="forecast-results">
+		<h3 class="forecast-results-disp">		
+			<strong class="day">{{weatherForecastData.day[4]}}, {{weatherForecastData.month[4]}} {{weatherForecastData.date[4]}}</strong>
+			<div>Low: {{weatherForecastData.list[4].temp.min}}&deg</div>
+			<div>High: {{weatherForecastData.list[4].temp.max}}&deg</div>
+			<div>Weather: {{weatherForecastData.list[4].weather[0].main}}</div>
+			<div>Wind: {{weatherForecastData.list[4].speed}}</div>
+		</h3>
+	</div>		
+			</br>
+	<div class="forecast-results">
+		<h3 class="forecast-results-disp">		
+			<strong class="day">{{weatherForecastData.day[5]}}, {{weatherForecastData.month[5]}} {{weatherForecastData.date[5]}}</strong>
+			<div>Low: {{weatherForecastData.list[5].temp.min}}&deg</div>
+			<div>High: {{weatherForecastData.list[5].temp.max}}&deg</div>
+			<div>Weather: {{weatherForecastData.list[5].weather[0].main}}</div>
+			<div>Wind: {{weatherForecastData.list[5].speed}}</div>
+		</h3>
+	</div>		
+			</br>
+	<div class="forecast-results">
+		<h3 class="forecast-results-disp">		
+			<strong class="day">{{weatherForecastData.day[6]}}, {{weatherForecastData.month[6]}} {{weatherForecastData.date[6]}}</strong>
+			<div>Low: {{weatherForecastData.list[6].temp.min}}&deg</div>
+			<div>High: {{weatherForecastData.list[6].temp.max}}&deg</div>
+			<div>Weather: {{weatherForecastData.list[6].weather[0].main}}</div>
+			<div>Wind: {{weatherForecastData.list[6].speed}}</div>
+		</h3>
+	</div>
+	<div class="next-navigation">
+			<div class="buttons">
+				<a ng-href="#/home">
+					<button class="btn btn-primary btn-outline btn-lg" id="curr-button">Home</button>
+				</a>
+				<a ng-href="#/current-weather/{{city}}">
+					<button class="btn btn-primary btn-outline btn-lg">Current Weather</button>
+				</a>
+            </div>
+	</div>	
+</div>

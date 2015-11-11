@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="weatherSite">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/homeStyle.css">
+    <link rel="stylesheet" href="styles/currWeatherStyle.css">
+    <link rel="stylesheet" href="styles/forecastStyle.css">
+    <title></title>
+</head>
+
+<body>
+    
+    <div ui-view></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/mainCtrl.js"></script>
+    <script src="app/directives/dirCurrWeather.js"></script>
+    <script src="app/directives/dirForecast.js"></script>
+    <script src="app/weatherCallSrvc.js"></script>
+</body>
+</html>
